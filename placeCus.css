@@ -1,0 +1,323 @@
+    .formBorder{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        margin-top: 3%;
+        border: 1px solid #ccc;
+        background-color: #fafafa;
+    }
+body {
+  font-size: 14px;
+}
+.forhover{
+  background-color: white;
+}
+.forhover:hover{
+  background-color: #eee;
+  border-color:black;
+}
+    #headerstyle{
+        padding-top:1%;
+    }
+
+    .radio_txt{
+        margin-left: 4%;
+        width: 96%;
+    }
+
+    .placeDetails{
+        text-decoration: none;
+        cursor:pointer;
+    }
+
+    a.tabdata:hover{
+        color:darkgrey;
+    }
+
+    .cover{
+        position: absolute;
+        top : 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        z-index: 100;
+    }
+
+    #dialogbox{
+        z-index: 200;
+        display: none;
+        position : fixed;
+        width: 375px;
+        height: 500px;
+    }
+
+    .hrmargin{
+        margin-left: -7%;
+        margin-right: -7%;
+    }
+
+    #navbarb{
+        display: none;
+    }
+
+    .linktext{
+        color:dodgerblue;
+    }
+
+    .card-columnss .card {
+      margin-bottom: 0.3rem;
+    }
+
+    tr.table-hover:hover{
+      background-color: red;
+    }
+
+    @media (min-width: 576px) {
+      .card-columnss {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        -webkit-column-gap: 0.3rem;
+        -moz-column-gap: 0.3rem;
+        column-gap: 0.3rem;
+      }
+      .card-columnss .card {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .fav{
+        background-color: transparent;
+        color:dodgerblue;
+    }
+
+    .fav:hover{
+        color: #0069d9;
+    }
+
+    .clear{
+      background-color: transparent;
+    }
+
+    .clear:hover {
+      background-color: #ddd;
+      color: #6c757d;
+    }
+
+    .clear:focus, .clear.focus {
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    .clear:not(:disabled):not(.disabled):active, .clear:not(:disabled):not(.disabled).active,
+    .show > .clear.dropdown-toggle {
+      color: #6c757d;
+      background-color: #ddd;
+      border-color:  #6c757d;
+    }
+
+
+    .fav:not(:disabled):not(.disabled):active, .fav:not(:disabled):not(.disabled).active,
+    .show > .fav.dropdown-toggle {
+      color: #0069d9;
+      background-color: transparent;
+    }
+
+    .fav:not(:disabled):not(.disabled):active:focus, .fav:not(:disabled):not(.disabled).active:focus,
+    .show > .fav.dropdown-toggle:focus {
+      box-shadow: none;
+    }
+
+    .fav:focus, .fav.focus {
+      box-shadow: none;
+    }
+
+    @media (min-width: 275px) {
+      .modal-dialog {
+        max-width: 375px;
+        margin: 1.75rem auto;
+      }
+      .modal-dialog-centered {
+        min-height: calc(100% - (1.75rem * 2));
+      }
+      .modal-sm {
+        max-width: 300px;
+      }
+    }
+
+    #map{
+        height: 1px;
+    }
+
+    #photossTab{
+        display: none;
+    }
+
+    #mapForm{
+        display: none;
+    }
+
+    .star-rating, .back-stars, .front-stars, .front-starss, .star-ratingg{
+      display: flex;
+    }
+
+    .star-rating {
+      font-size: 1em;
+      height:1.7em;
+      position:relative;
+      width: 88px;
+      z-index:100;
+    }
+
+    .back-stars {
+      color: white;
+      position: absolute;
+    }
+
+    .front-stars {
+        margin-top: 7%;
+        margin-left:4%;
+      color: orange;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .front-starss {
+      color: orange;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .star-ratingg {
+      font-size: 1em;
+      height:1em;
+      position:relative;
+      width: 300px;
+      z-index:104;
+    }
+
+    .sgvhsjan{
+        display: none;
+    }
+
+   .animate-hide {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+  opacity:1;
+  border:0px solid black;
+  background:white;
+  transform: translateX(0);
+}
+
+.animate-hide.ng-hide {
+  transform: translateX(-100%);
+  opacity:1;
+}
+
+.animate-show{
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+  opacity:1;
+  border:0px solid black;
+  background:white;
+  transform: translateX(-1000);
+}
+
+.animate-show.ng-hide{
+  transform: translateX(70);
+  opacity:1;
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: white;
+}
+
+.table-hover .table-dark:hover {
+  background-color: red;
+}
+
+.table-hover .table-dark:hover > td,
+.table-hover .table-dark:hover > th {
+  background-color: red;
+}
+
+.table-dark {
+  background-color: white;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  color :black;
+  border-color: lightgrey;
+}
+
+.table-dark.table-bordered {
+  border: 0;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ddd;
+}
+
+.table-dark.table-hover tbody tr:hover {
+  background-color: #eee;
+}
+
+.fade-in-out {
+  transition: 1s linear all;  
+  opacity: 1;
+}
+
+.fade-in-out.ng-hide {
+  opacity: 0;
+}
+
+.row1 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column1 a img {
+    margin-top: 8px;
+    border:1px solid lightgrey;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
