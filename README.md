@@ -1,4 +1,4 @@
-# Website_TravelEntSearch
+# Travel and Entertainment Search Website
 
 This is a website for searching places, restaurants. Basically any establishments.
 
